@@ -14,7 +14,7 @@ typedef enum toks {
   T_DIVIDE,
   T_EQUALS,
   T_STOP,
-  T_INVALID
+  T_INVALID //Invalid input values such as special characters
 } Token;
 
 Token read_token(char buf[], char buf_in[], int in_length);

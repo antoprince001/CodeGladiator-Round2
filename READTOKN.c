@@ -67,6 +67,6 @@ Token read_token(char buf[], char buf_in[], int in_length)
       else if(i>=1 && i<=9)
         return T_INTEGER;
       else
-        return T_INVALID;
+        return T_INVALID; //INVALID token's condition
   }
 }
