@@ -4,7 +4,7 @@
 - Antony Prince J
 - Hemapriya N
 
-The platform used to compile and debug code in Visual studio code (vs code) with gcc compiler
+The platform used to compile and debug code is Visual studio code (vs code) with gcc compiler
 
 ## STEPS TO COMPILE CODE
 - To create an executable file 
