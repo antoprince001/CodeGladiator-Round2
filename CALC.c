@@ -68,7 +68,7 @@ int main()
       break;
 
   }
-  printf("%s\n", buf_out);
+  printf("%s\n", buf_out); // output buffer value
   return 0;
 }
 

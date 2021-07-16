@@ -5,7 +5,7 @@
 
 #include <stdlib.h>
 #include "./CALC.h"
-
+//default push pop operations of stack
 /*--------------------------------------------------------------------*/
 /* input:  stk - stack of integers                                    */
 /*         num - value to push on the stack                           */

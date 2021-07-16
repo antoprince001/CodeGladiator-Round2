@@ -3,8 +3,8 @@
 /* a simple calculator                                                */
 /*--------------------------------------------------------------------*/
 
-#define MaxWord 100
-#define MaxData 1000
+#define MaxWord 100 // maximum length allowed for the word 
+#define MaxData 1000 // maximum length allowed for the Data
 
 typedef enum toks {
   T_INTEGER,

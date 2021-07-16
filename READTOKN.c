@@ -42,6 +42,7 @@ Token read_token(char buf[], char buf_in[], int in_length)
   char c;
   /* skip leading white space */
   /* Input the string and the length */
+  //let the character be retrieved from the buffer
   for( c=nextchar(buf_in, in_length);
        isspace(c);
        c=nextchar(buf_in, in_length))
@@ -65,7 +66,7 @@ Token read_token(char buf[], char buf_in[], int in_length)
       if (i==0)
         return T_STOP;
       else if(i>=1 && i<=9)
-        return T_INTEGER;
+        return T_INTEGER; // Only intege values
       else
         return T_INVALID; //INVALID token's condition
   }
