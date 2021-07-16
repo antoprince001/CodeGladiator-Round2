@@ -42,7 +42,7 @@ int main()
 
       case T_MINUS:
         num = pop(&stack);
-        push(&stack, num-pop(&stack));
+        push(&stack, pop(&stack)-num);
         break;
 
       case T_TIMES:
